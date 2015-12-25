@@ -1,0 +1,16 @@
+{
+  "name": "aeffchen-pingu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "postcss --use autoprefixer *.css -d build/"
+  },
+  "author": "Hans Christian Reinl <info@drublic.de> (https://drublic.de)",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^6.2.1",
+    "postcss-cli": "^2.3.2"
+  }
+}
